@@ -70,8 +70,4 @@ To check that it has been successfully downloaded, use `pip list`.
 
 Update your Vagrantfile to include the following:
 
-```plaintext
-Vagrant.configure(2) do |config|
-...
-config.ssh.forward_x11 = true
-end
+
