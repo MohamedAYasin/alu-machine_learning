@@ -1,6 +1,6 @@
-# Resources
+# 001 project - PLOTTING!
 
-## Read or watch:
+## Read or watch the following resources:
 
 - [Plot (graphics)](https://intranet.aluswe.com/rltoken/swUAw_dV4-PhFth6wSzU1w)
 - [Scatter plot](https://intranet.aluswe.com/rltoken/ukujmh-I_E6VTCLeJLiANw)
@@ -29,7 +29,7 @@
 
 # Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to explain the following to anyone, without the help of Google:
 
 ## General
 
