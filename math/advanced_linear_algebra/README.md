@@ -1,6 +1,6 @@
 # Resources
 
-##Read or watch:
+## Read or watch:
 
 The determinant | Essence of linear algebra
 Determinant of a Matrix
