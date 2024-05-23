@@ -27,7 +27,7 @@
   
 ## As references:
 
-(numpy.linalg.eig)[https://numpy.org/doc/stable/reference/generated/numpy.linalg.eig.html]
+[numpy.linalg.eig](https://numpy.org/doc/stable/reference/generated/numpy.linalg.eig.html)
 
 # Learning Objectives
 
