@@ -1,4 +1,4 @@
-jj#!/usr/bin/env python3
+#!/usr/bin/env python3
 
 """
 Offers a utility to calculate the sum of squares of the first n positive
