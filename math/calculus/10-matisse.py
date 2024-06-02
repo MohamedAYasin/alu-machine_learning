@@ -1,4 +1,4 @@
-sdd#!/usr/bin/env python3
+#!/usr/bin/env python3
 '''
 Module for calculating the derivative of a polynomial.
 
