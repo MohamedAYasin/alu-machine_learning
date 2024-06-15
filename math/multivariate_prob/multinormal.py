@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-"""
-This script represents a Multivariate normal distributiion
-"""
 
-
-# import modules
-import numpy as np
 
 
 class MultiNormal():
