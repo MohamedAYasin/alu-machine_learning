@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''
-mean_cov(X) calculates the mean and variance
+mean_cov(X) exactly calculates the mean and variance
 of a data set'''
 
 
