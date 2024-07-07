@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    A function def
+    Function def
     convolve_grayscale(images, kernel, padding='same', stride=(1, 1)):
     that performs a convolution on grayscale images:
 """
