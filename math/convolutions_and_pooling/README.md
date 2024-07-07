@@ -1,4 +1,4 @@
-# Convolutional Neural Networks (CNN) Project
+# The Convolutional Neural Networks (CNN) Project
 
 ## Resources
 
