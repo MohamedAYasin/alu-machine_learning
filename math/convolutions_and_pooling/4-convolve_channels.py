@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    A function def
+    Function def
     convolve(images, kernels, padding='same', stride=(1, 1)):
     that performs a convolution on images using multiple kernels:
 """
