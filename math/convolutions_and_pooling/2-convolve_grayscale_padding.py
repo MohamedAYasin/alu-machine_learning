@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 '''
-    A function def convolve_grayscale_padding(images, kernel, padding):
+    Function def convolve_grayscale_padding(images, kernel, padding):
     that performs a same convolution on grayscale images:
 '''
-
 
 import numpy as np
 
