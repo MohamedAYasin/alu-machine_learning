@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """
-    A function def convolve_grayscale_valid
+    Function def convolve_grayscale_valid
     convolve_grayscale_valid(images, kernel)
 """
-
-
 import numpy as np
-
 
 def convolve_grayscale_valid(images, kernel):
     """
