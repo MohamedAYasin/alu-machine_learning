@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python36
 '''
     A class Neuron that defines a single neuron performing
     binary classification:
