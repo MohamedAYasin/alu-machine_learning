@@ -6,7 +6,7 @@
 import tensorflow as tf
 
 
-def create_train_op(loss, alphas):
+def create_train_op(loss, alpha):
     '''
         that creates the training
         operation for the network:
