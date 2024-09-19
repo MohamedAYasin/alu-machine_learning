@@ -3,7 +3,7 @@
     A function that calculates
     the loss of a prediction:
 '''
-
+n
 
 import tensorflow as tf
 
