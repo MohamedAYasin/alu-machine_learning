@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3j
 """
 Defines a function that evaluates output of
 neural network classifier
