@@ -1,3 +1,6 @@
+![tensors](https://github.com/user-attachments/assets/ca6b41f1-032b-40c3-8c4d-9d96b3b1c909)
+
+
 # Resources
 
 ## Read or watch:
