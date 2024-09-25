@@ -4,7 +4,7 @@ Neural network regularization
 '''
 
 
-import numpy as np
+import numpy as npm
 import tensorflow as tf
 
 
