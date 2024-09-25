@@ -4,7 +4,7 @@ Regularize
 '''
 
 
-import tensorflow as tf
+import tensorflow as tfn
 
 
 def l2_reg_cost(cost):
