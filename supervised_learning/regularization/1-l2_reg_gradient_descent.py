@@ -1,4 +1,4 @@
-#!/usr/bin/env python3l
+#!/usr/bin/env python3
 '''
 Gradient descent with L2
 '''
