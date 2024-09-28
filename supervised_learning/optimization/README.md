@@ -82,6 +82,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 # More Info
 
+[The Link of the Medium Post I wrote about this project:](https://medium.com/@m.yasin/the-principal-goal-of-machine-learning-is-to-create-a-model-that-performs-well-and-gives-accurate-d266e5aef33a)
+
 ### Testing
 
 Please use the following checkpoints to accompany the following tensorflow main files. You do not need to push these files to GitHub. Your code will not be tested with these files.
