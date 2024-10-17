@@ -1,7 +1,6 @@
 # alu-machine_learning
 
-This Repo contains the following folders
-- []()
-- []()
-- []()
-- []()
+This Repository contains the following folders
+- [Assignments]()
+- [Math]()
+- [Supervised-Learning]()
