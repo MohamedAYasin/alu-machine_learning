@@ -1,3 +1,6 @@
+![panda](https://github.com/user-attachments/assets/49483918-20ec-408b-b46c-3e6da59d5f98)
+
+
 # Resources
 ## Read or watch:
 
