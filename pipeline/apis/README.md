@@ -1,5 +1,4 @@
-
-
+![dany](https://github.com/user-attachments/assets/14386cdd-57c1-4552-b860-8f79367afd08)
 
 # Resources
 ## Read or watch:
