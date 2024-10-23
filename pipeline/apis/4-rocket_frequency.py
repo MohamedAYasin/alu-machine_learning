@@ -1,4 +1,4 @@
-#!/usr/bin/env python3mm
+#!/usr/bin/env python3
 """
     script that displays the number of launches per rocket.
 """
