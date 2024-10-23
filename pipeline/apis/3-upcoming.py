@@ -1,64 +1,45 @@
 #!/usr/bin/env python3
-"""
-    script that displays the upcoming launch
-"""
+'''Space X'''
 
 
+import sys
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 
 
 def get_upcoming_launch():
-    """
-    Displays the upcoming launch
-    """
-    url = "https://api.spacexdata.com/v4/launches/upcoming"
-    response = requests.get(url)
-    launches = response.json()
+    '''space X'''
+    try:
+        url = 'https://api.spacexdata.com/v4/launches/upcoming'
+        response = requests.get(url)
+        if response.status_code == 200:
+            launches = response.json()
+            # Sort launches by date_unix to find the upcoming launch
+            upcoming_launch = sorted(launches, key=lambda x: x['date_unix'])[0]
 
-    # Sort launches by date_unix to find the soonest launch
-    launches.sort(key=lambda x: x["date_unix"])
-    upcoming_launch = launches[0]
+            launch_name = upcoming_launch['name']
+            launch_date_local = upcoming_launch['date_local']
+            rocket_id = upcoming_launch['rocket']
 
-    launch_name = upcoming_launch["name"]
-    date_unix = upcoming_launch["date_unix"]
-    rocket_id = upcoming_launch["rocket"]
-    launchpad_id = upcoming_launch["launchpad"]
+            # Fetch rocket details
+            sub_url = 'https://api.spacexdata.com/v4/rockets/'
+            rocket_response = requests.get(sub_url + str(rocket_id))
+            rocket_name = rocket_response.json().get('name', 'Unknown rocket')
 
-    # Convert the date to the desired local time (UTC-4)
-    launch_date_utc = datetime.fromtimestamp(date_unix, tz=timezone.utc)
-    launch_date_local = launch_date_utc.astimezone(timezone(
-        timedelta(hours=-4))
-    )
-    launch_date_str = launch_date_local.strftime('%Y-%m-%dT%H:%M:%S%z')
-    launch_date_str = "{}:{}".format(
-        launch_date_str[:-2], launch_date_str[-2:]
-    )
-
-    # Get rocket name
-    rocket_url = "https://api.spacexdata.com/v4/rockets/{}".format(rocket_id)
-    rocket_response = requests.get(rocket_url)
-    rocket_name = rocket_response.json()["name"]
-
-    # Get launchpad details
-    launchpad_url = "https://api.spacexdata.com/v4/launchpads/{}".format(
-        launchpad_id
-    )
-    launchpad_response = requests.get(launchpad_url)
-    launchpad_data = launchpad_response.json()
-    launchpad_name = launchpad_data["name"]
-    launchpad_locality = launchpad_data["locality"]
-
-    # Format the output
-    formatted_output = "{} ({}) {} - {} ({})".format(
-        launch_name,
-        launch_date_str,
-        rocket_name,
-        launchpad_name,
-        launchpad_locality,
-    )
-    return formatted_output
+            # Fetch launchpad details
+            launchpad_id = upcoming_launch['launchpad']
+            sub_pad = 'https://api.spacexdata.com/v4/launchpads/'
+            launchpad_response = requests.get(sub_pad + str(launchpad_id))
+            launchpad_data = launchpad_response.json()
+            launchpad_name = launchpad_data.get('name', 'Unknown launchpad')
+            launch_local = launchpad_data.get('locality', 'Unknown locality')
+            f = launch_name + ' (' + launch_date_local + ') ' + rocket_name
+            print(f + ' - ' + launchpad_name + ' (' + launch_local + ')')
+        else:
+            print('Error: ' + str(response.status_code))
+    except requests.exceptions.RequestException as e:
+        print('Request failed: ' + str(e))
 
 
-if __name__ == "__main__":
-    print(get_upcoming_launch())
+if __name__ == '__main__':
+    get_upcoming_launch()
