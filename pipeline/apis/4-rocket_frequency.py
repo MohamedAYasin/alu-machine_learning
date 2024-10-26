@@ -1,49 +1,40 @@
 #!/usr/bin/env python3
-"""Script that displays the number of launches per rocket"""
-
+"""
+    This is a script that displays the number of launches per rocket.
+"""
 
 import requests
-from collections import defaultdict
+from collections import Counter
 
 
-def get_launches_per_rocket():
-    """Script that displays the number of launches per rocket"""
+def get_launch_count_by_rocket():
+    """
+    Get all launches and count them per rocket.
+    """
+    url = "https://api.spacexdata.com/v4/launches"
+    response = requests.get(url)
+    launches = response.json()
 
-    launches_url = 'https://api.spacexdata.com/v4/launches'
-    rockets_url = 'https://api.spacexdata.com/v4/rockets'
+    # Count the launches per rocket ID
+    rocket_counts = Counter(launch["rocket"] for launch in launches)
 
-    try:
-        launches_response = requests.get(launches_url)
-        launches_response.raise_for_status()
-        launches = launches_response.json()
+    # Get rocket names
+    url = "https://api.spacexdata.com/v4/rockets"
+    response = requests.get(url)
+    rockets = response.json()
+    rocket_names = {rocket["id"]: rocket["name"] for rocket in rockets}
 
-        launch_count = defaultdict(int)
-        for launch in launches:
-            rocket_id = launch['rocket']
-            launch_count[rocket_id] += 1
+    # Create a list of (rocket_name, count) and sort it
+    rocket_launch_counts = [
+        (rocket_names[rocket_id], count)
+        for rocket_id, count in rocket_counts.items()
+    ]
+    rocket_launch_counts.sort(key=lambda x: (-x[1], x[0]))
 
-        rockets_response = requests.get(rockets_url)
-        rockets_response.raise_for_status()
-        rockets = rockets_response.json()
-
-        rocket_names = {rocket['id']: rocket['name'] for rocket in rockets}
-
-        rocket_launches = [
-            (rocket_names[rocket_id], count)
-            for rocket_id, count in launch_count.items()
-        ]
-
-        rocket_launches.sort(key=lambda x: (-x[1], x[0]))
-
-        for rocket, count in rocket_launches:
-            print("{}: {}".format(rocket, count))
-
-    except requests.RequestException as e:
-        print(
-            'An error occurred while making an API request: {}'.format(e))
-    except Exception as err:
-        print('A general error occurred: {}'.format(err))
+    return rocket_launch_counts
 
 
-if __name__ == '__main__':
-    get_launches_per_rocket()
+if __name__ == "__main__":
+    rocket_launch_counts = get_launch_count_by_rocket()
+    for rocket_name, count in rocket_launch_counts:
+        print("{}: {}".format(rocket_name, count))
