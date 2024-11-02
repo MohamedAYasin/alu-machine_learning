@@ -1,3 +1,5 @@
+![database](https://github.com/user-attachments/assets/8ad6a490-8b54-4d60-921b-8ccf6feedde4)
+
 # Databases for ML
 
 After fetching data via APIs, storing them is also really important for training a Machine Learning model.
