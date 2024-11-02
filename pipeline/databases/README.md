@@ -90,3 +90,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Your Python code should not be executed when imported (by using `if __name__ == "__main__":`)
 - All your files should end with a new line
 - The length of your files will be tested using `wc`
+
+##### Projects
+
+- Open this [Projects](https://github.com/MohamedAYasin/alu-machine_learning/blob/main/pipeline/databases/Project_%20Databases%20_%20ALU%20Intranet.pdf) to see the Assignments I did.
+
+`©2024 African Leadership University`
