@@ -1,4 +1,4 @@
-# alu-machine_learning
+# Machine Learning @ African Leadership University (ALU)
 
 ![Machine-Learning](https://github.com/user-attachments/assets/34c797c5-9165-482a-b0b3-f4e2bf65a78b)
 
