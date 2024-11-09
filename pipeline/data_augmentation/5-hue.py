@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-   This is Hue
+   This is Hue!
 """
 
 import tensorflow as tf
