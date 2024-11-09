@@ -6,7 +6,7 @@
 
 import tensorflow as tf
 import tensorflow_datasets as tfds
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as
 
 
 def rotate_image(image):
