@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 
-def crop_image(image, sie):
+def crop_image(image, size):
     """
     Performs a random crop of an image
 
