@@ -9,7 +9,7 @@
 - [Data Augmentation | How to use Deep Learning when you have Limited Data — Part 2](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/)
 
 - [tf.image](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/keras/preprocessing/image)
-- 
+
 - [tf.keras.preprocessing.image](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/keras/preprocessing/image)
   
 - [Automating Data Augmentation: Practice, Theory and New Direction](https://ai.stanford.edu/blog/data-augmentation/)
