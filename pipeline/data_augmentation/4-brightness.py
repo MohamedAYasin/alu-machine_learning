@@ -4,7 +4,7 @@
    that randomly changes the brightness of an image
 """
 
-import tensorflow as tf
+import tensorflow as 
 import tensorflow_datasets as tfds
 import matplotlib.pyplot as plt
 
