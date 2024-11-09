@@ -1,4 +1,4 @@
-# Data AUGMENTATION
+# DATA AUGMENTATION
 
 ![data-filtering](https://github.com/user-attachments/assets/8ca58e48-79db-4242-9f94-2736fd02e90a)
 
