@@ -1,4 +1,4 @@
-# Data Augmentation
+# Data AUGMENTATION
 
 ![data-filtering](https://github.com/user-attachments/assets/8ca58e48-79db-4242-9f94-2736fd02e90a)
 
@@ -26,4 +26,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What are the various ways to perform data augmentation?
 - How can you use ML to automate data augmentation?
 
------------------ ©2024 The African Leadership University (ALU) ---------------------------------
+
+
+
+               ----------------- `©2024 The African Leadership University (ALU)`    ---------------------------------
