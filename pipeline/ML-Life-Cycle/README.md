@@ -1,8 +1,32 @@
 # ML LIFE CYCLE - DATABRICKS
 
-## Description:
+### Resources
 
-This project demonstrates building a Random Forest Regressor for predicting diabetes progression using MLflow on Databricks.
+##### Read or watch:
+
+- [Making the machine: the machine learning lifecycle](https://cloud.google.com/blog/products/ai-machine-learning/making-the-machine-the-machine-learning-lifecycle)
+  
+- [The New Machine Learning Life Cycle: 5 Challenges for DevOps](https://aibusiness.com/document.asp?doc_id=760921&site=aibusiness)
+  
+- [ML application lifecycle](https://www.youtube.com/watch?v=8iX-VNWuEU0)
+  
+- [Introducing MLflow: an Open Source Machine Learning Platform](https://www.databricks.com/blog/2018/06/05/introducing-mlflow-an-open-source-machine-learning-platform.html)
+  
+- [Introduction to Apache Spark](https://docs.databricks.com/en/spark/index.html)
+  
+- [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
+
+  
+### Learning Objectives
+
+- At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+###### General
+1. What is the ML Life Cycle?
+2. What are the challenges of implementing the ML Life Cycle?
+3. How to use Databricks and MLFlow to deploy an ML Model
+
+## Tasks
 
 ### Project Requirements:
 
@@ -40,12 +64,3 @@ Thank you for being here! ❤️🙏
 
  -----------------         `©2024 The African Leadership University (ALU)`      ---------------------------------
   
-
-
-
-
-
-
-
-
-
