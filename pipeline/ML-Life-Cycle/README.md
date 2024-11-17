@@ -18,7 +18,7 @@ This project demonstrates building a Random Forest Regressor for predicting diab
 
 ## Things I did:
 
-- Sign up for a databricks account with a community version.
+- Signed up for a databricks account with a community version.
 - Created a new MLflow experiment called `Diabetes`
 - Created a new cluster called `mlflow`
 - Added a Notebook with ML model that is building a Random Forest Regressor for predicting diabetes progression
@@ -28,9 +28,17 @@ This project demonstrates building a Random Forest Regressor for predicting diab
 
 ## Resources:
 
-- YouTube Video explaining what I did: [Click Here]()
+- [Video explaining what I did:](https://youtu.be/Htcl38hRBe8)
   
 - [My Published Model](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2693522773022789/2108849380992658/4970763558763/latest.html)
+
+
+
+Thank you for being here! ❤️🙏
+
+
+
+ -----------------         `©2024 The African Leadership University (ALU)`      ---------------------------------
   
 
 
