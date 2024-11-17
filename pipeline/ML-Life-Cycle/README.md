@@ -1,1 +1,43 @@
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2693522773022789/2108849380992658/4970763558763/latest.html
+# Title: Diabetes Prediction with MLflow on Databricks (or similar title reflecting your project)
+
+## Description:
+
+This project demonstrates building a Random Forest Regressor for predicting diabetes progression using MLflow on Databricks.
+
+### Project Requirements:
+
+~ Create a student Databricks account and sign up for their community version. Then, develop your own ML project using Databricks and MLFlow:
+
+- Pick any of the models that we have built over the course of this specialization and implement it in Databricks
+- Create a new MLFlow experiment
+- Create a new cluster
+- Add your data
+- When your ML model is ran, it should keep track of the relevant parameters and metrics
+- Your model should be packaged into an MLflow Model
+- When done, please include screen shots of the results of your training and logging with Databricks below.
+
+## Things I did:
+
+- Sign up for a databricks account with a community version.
+- Created a new MLflow experiment called `Diabetes`
+- Created a new cluster called `mlflow`
+- Added a Notebook with ML model that is building a Random Forest Regressor for predicting diabetes progression
+- The model is tracking relevant parameters and metrics
+- The model is also packaged and published into an MLflow Model
+- Added screenshots of my model hosted on the databricks platform/website.
+
+## Resources:
+
+- YouTube Video explaining what I did: [Click Here]()
+  
+- [My Published Model](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2693522773022789/2108849380992658/4970763558763/latest.html)
+  
+
+
+
+
+
+
+
+
+
