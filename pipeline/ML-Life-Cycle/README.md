@@ -1,5 +1,8 @@
 # ML LIFE CYCLE - DATABRICKS
 
+![ML Life Cycle](https://github.com/user-attachments/assets/e4a0c60b-85c8-4bc1-b08d-2a4d743ead35)
+
+
 ### Resources
 
 ##### Read or watch:
