@@ -1,4 +1,4 @@
-# Title: Diabetes Prediction with MLflow on Databricks (or similar title reflecting your project)
+# ML LIFE CYCLE - DATABRICKS
 
 ## Description:
 
