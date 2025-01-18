@@ -1,42 +1,39 @@
 #!/usr/bin/env python3
 '''
-    Script that defines a function def bi_rnn(bi_cell, X, h_0, h_t):
-    that performs forward propagation for a bidirectional RNN:
+This is Bidirectional Cell Forward
 '''
 
 
 import numpy as np
 
 
-def bi_rnn(bi_cell, X, h_0, h_T):
+def bi_rnn(bi_cell, X, h_0, h_t):
     '''
-        Function that performs forward propagation for a bidirectional RNN
-
-        parameters:
-            bi_cell: an instance of BidirectionalCell
-            X: data
-            h_0: initial hidden state
-            h_T: terminal hidden state
-
-        return:
-            H: all hidden states
-            Y: all outputs
+    Function that performs forward propagation for a bidirectional RNN
     '''
-
     t, m, i = X.shape
-    l, m, h = h_0.shape
-    H = np.zeros((t + 1, 2, m, h))
-    H[0, 0] = h_0
-    H[0, 1] = h_T
-    for step in range(t):
-        h_prev, y = bi_cell.forward(H[step, 0], X[step])
-        H[step + 1, 0] = h_prev
-        h_next, y = bi_cell.forward(H[step, 1], y)
-        H[step + 1, 1] = h_next
-        if step == 0:
-            Y = y
-        else:
-            Y = np.concatenate((Y, y))
-    output_shape = Y.shape[-1]
-    Y = Y.reshape(t, 2, m, output_shape)
-    return (H, Y)
+    h = h_0.shape[1]  # The dimensionality of the hidden state
+
+    # Initialize forward and backward hidden state arrays
+    Hf = np.zeros((t, m, h))  # Forward hidden states
+    Hb = np.zeros((t, m, h))  # Backward hidden states
+
+    # Set the initial hidden states
+    Hf[0] = h_0  # Initialize forward hidden state
+    Hb[-1] = h_t  # Initialize backward hidden state
+
+    # Forward pass
+    for step in range(1, t):
+        Hf[step] = bi_cell.forward(Hf[step - 1], X[step])
+
+    # Backward pass
+    for step in range(t - 2, -1, -1):
+        Hb[step] = bi_cell.backward(Hb[step + 1], X[step])
+
+    # Concatenate forward and backward hidden states along the last axis
+    H = np.concatenate((Hf, Hb), axis=-1)
+
+    # Compute the output using the concatenated hidden states
+    Y = bi_cell.output(H)  # Ensure bi_cell.output handles 2h input
+
+    return H, Y
