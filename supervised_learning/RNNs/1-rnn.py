@@ -1,4 +1,4 @@
-#!/usr/bin/env python3m
+#!/usr/bin/env python3
 """
 Defines function that performs forward propagation for simple RNN
 """
