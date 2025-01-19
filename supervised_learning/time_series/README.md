@@ -23,9 +23,6 @@ This project demonstrates a simple and effective approach to forecasting Bitcoin
   - Formatting the data into sequences.
   - Normalizing and preparing data for training.
 
-- **`README.md`**:  
-  The current file, providing an overview of the project and its components.
-
 ---
 
 ## Methodology
