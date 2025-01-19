@@ -38,6 +38,4 @@ def bi_rnn(bi_cell, X, h_0, h_t):
 
     # Compute the output using the concatenated hidden states
     Y = bi_cell.output(H)  # Ensure bi_cell.output handles 2h input
-
     return H, Y
-
