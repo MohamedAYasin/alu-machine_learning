@@ -28,4 +28,4 @@ This directory contains a collection of projects, notebooks, and scripts related
   Includes TensorFlow-based projects and scripts for building and training deep learning models.
 
 - **`time_series/`**  
-  Contains time series forecasting projects, including Bitcoin price prediction using TensorFlow-based models. Refer to the [time_series README](time_series/README.md) for more details.
+  Contains time series forecasting projects, including Bitcoin price prediction using TensorFlow-based models.
