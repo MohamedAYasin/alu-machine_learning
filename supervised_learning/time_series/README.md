@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/c3cd953b-93fd-447e-970d-c09a2305cfb6)
+
 # Time Series Forecasting for Bitcoin Prices
 
 This project demonstrates a simple and effective approach to forecasting Bitcoin prices using time series forecasting. The methods and implementation in this project are based on Python and TensorFlow.
