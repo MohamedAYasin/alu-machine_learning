@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 ,,,
 
 from gensim.test.utils import common_texts
 fasttext_model = __import__('4-fasttext').fasttext_model
