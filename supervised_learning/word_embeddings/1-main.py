@@ -1,4 +1,4 @@
-#!/usr/bin/env python3mm
+#!/usr/bin/env python3
 
 tf_idf = __import__('1-tf_idf').tf_idf
 
