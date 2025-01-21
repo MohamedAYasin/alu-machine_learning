@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-task 3: Function to convert gensim Word2Vec model to a keras Embedding layers
+task 3: Function to convert gensim Word2Vec model to a Keras embedding layer
 """
 
 from keras.layers import Embedding
