@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-bag_of_words = __import__('0-bag_of_words').bag_of_words
+bag_of_words = __import__('bag_of_words').bag_of_words
 
 sentences = ["Holberton school is Awesome!",
              "Machine learning is awesome",
