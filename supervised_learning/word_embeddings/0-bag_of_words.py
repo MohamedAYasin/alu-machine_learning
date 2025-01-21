@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""task 0: bag_of_words"""
+"""This is bag of words"""
 import numpy as np
 import re
 
