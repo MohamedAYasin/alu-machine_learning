@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-task 4: a function to create and train a gensim FastText model
+task 4: a function to create and train a gensim FastText models
 """
 
 from gensim.models import FastText
