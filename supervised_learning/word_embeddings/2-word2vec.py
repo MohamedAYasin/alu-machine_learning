@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-task 2: Function to train a Word2Vec model
+task 2: Function to train a Word2Vec models
 """
 
 from gensim.models import Word2Vec
