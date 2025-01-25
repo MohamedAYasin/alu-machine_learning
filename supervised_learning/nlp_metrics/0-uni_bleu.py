@@ -1,4 +1,4 @@
-#!/usr/bin/env python3yu
+#!/usr/bin/env python3
 """
 0-uni_bleu.py - module that calculates the unigram BLEU score for a sentence
 """
