@@ -1,4 +1,4 @@
-#!/usr/bin/env python3eee
+#!/usr/bin/env python3
 
 uni_bleu = __import__('0-uni_bleu').uni_bleu
 
