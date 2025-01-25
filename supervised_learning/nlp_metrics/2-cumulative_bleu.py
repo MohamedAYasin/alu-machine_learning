@@ -1,4 +1,4 @@
-c#!/usr/bin/env python3
+#!/usr/bin/env python3
 """calculates the culumative n-gram BLEU score of a sentnece"""
 import numpy as np
 from collections import Counter
