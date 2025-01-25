@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-1-ngram_bleu.py - a module that calculates the n-gram BLEU score for a sentence
+1-ngram_bleu.py - a simple module that calculates the n-gram BLEU score for a sentence
 """
 
 import numpy as np
