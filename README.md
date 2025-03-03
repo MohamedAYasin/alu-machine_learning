@@ -7,3 +7,4 @@ This Repository contains the following folders:
 - [Math](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/math)
 - [Supervised Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/supervised_learning)
 - [ML Pipeline](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/pipeline)
+- [Unsupervised Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/unsupervised_learning)
