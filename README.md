@@ -6,5 +6,6 @@ This Repository contains the following folders:
 - [Assignments](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/Assignments)
 - [Mathematics for Machine Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/math)
 - [ML Pipeline](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/pipeline)
+- [Reinforcement Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/reinforcement_learning)
 - [Supervised Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/supervised_learning)
 - [Unsupervised Learning](https://github.com/MohamedAYasin/alu-machine_learning/tree/main/unsupervised_learning)
