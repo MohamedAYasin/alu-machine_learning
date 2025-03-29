@@ -12,7 +12,7 @@ This directory contains a collection of projects, notebooks, and scripts related
 - **`classification/`**  
   Covers various classification algorithms, including implementation, evaluation, and optimization techniques.
 
-- **`error_analysis/`**  
+- **`error analysis/`**  
   Focuses on error analysis techniques to improve model performance by understanding and addressing model errors.
 
 - **`neural_style_transfer/`**  
